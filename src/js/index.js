@@ -1,3 +1,5 @@
+import '../css/style.css'
+
 document.addEventListener("DOMContentLoaded", function() {
     const newsSection = document.getElementById("news-section");
     const newsBoxes = document.getElementById("news-boxes");
@@ -29,9 +31,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     let newsBox = document.createElement('div');
                     let newsBoxTitle = document.createElement('div');
                     let newsBoxTime = document.createElement('div');
-                    let newsBoxLink = document.createElement('a'); // Utilizziamo <a> per il link
+                    let newsBoxLink = document.createElement('a'); 
     
-                    newsBox.classList.add('news-box');
+                    newsBox.classList.add('news-box', 'quicksand-2');
     
                     newsBoxTitle.classList.add('box-title');
                     newsBoxTitle.textContent = news.title;
@@ -53,5 +55,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 .catch(error => console.error('Errore nel recupero dei dettagli della notizia:', error));
         });
     }
+
+
+    loadMoreBtn.addEventListener('click', ()=>{
+        startIndex += 10;
+        endIndex += 10;
+        loadNewsStories();
+    })
+   
     
 });
