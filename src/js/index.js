@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     newsBoxTime.classList.add('box-time');
                     newsBoxTime.textContent = new Date(news.time * 1000).toLocaleString(); 
     
-                    newsBoxLink.classList.add('box-link');
+                    newsBoxLink.classList.add('box-link', 'quicksand-1');
                     newsBoxLink.textContent = "Read More";
                     newsBoxLink.href = news.url; 
                     newsBoxLink.target = "_blank"; 
