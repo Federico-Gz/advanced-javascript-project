@@ -50,5 +50,5 @@ The project is organized in two main directories: src and dist.
 
 > Clone this repository on your PC:
   git repo clone Federico-Gz/javascript-advanced-project
-> Go the site:
+> Go the site: [techalertApp](https://techalert.netlify.app)
   
