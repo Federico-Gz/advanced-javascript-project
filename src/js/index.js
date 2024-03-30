@@ -1,8 +1,7 @@
 // Import axios for HTTP requests 
 import axios from 'axios';
 
-// Impotr CSS file
-import '../css/style.css';
+
 
 // Start execution when DOM content is loaded
 document.addEventListener("DOMContentLoaded", function() {
