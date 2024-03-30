@@ -40,5 +40,5 @@ module.exports = {
         static: path.resolve(__dirname, 'dist'),
     },
 
-    mode: 'development',
+    mode: 'production',
 }
