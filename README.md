@@ -27,15 +27,6 @@ Click on the "Load More" button to load the next 10 news and scroll to see it.
 
 ---
 
-## Struttura progetto
-
-- index.html: contiene la struttura html del gioco;
-- assets/css/styles.css: file css per gli stili;
-- assets/js/script.js: file Javascript per la logica del gioco;
-- assets/img/: cartella contenente l'immagine di sfondo del gioco.
-
----
-
 ## How To Use
 
 > Clone this repository on your PC:
