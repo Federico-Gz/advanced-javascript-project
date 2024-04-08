@@ -5,7 +5,7 @@ const Dotenv = require('dotenv-webpack');
 
 
 module.exports = {
-    entry: './src/js/index.js',
+    entry: './src/assets/js/index.js',
 
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -28,8 +28,7 @@ module.exports = {
 
         new CopyWebpackPlugin({
             patterns: [
-                { from: 'src/img', to: 'img'},
-                { from: 'src/css', to: 'css'}, 
+                { from: 'src/assets/img', to: 'img'}, 
             ]
         }),
 
