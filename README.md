@@ -2,7 +2,7 @@
 
 Welcome to TA, where you can read about the latest tech news
 
-![schermata di gioco](src/img/app-screen.png)
+![schermata di gioco](src/assets/img/app-screen.png)
 
 ---
 
