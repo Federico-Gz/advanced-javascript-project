@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 const newsIds = _.slice(response.data, startIndex, endIndex);
                 // Create an array of promises for fetching news details
                 const promises = _.map(newsIds, newsId => fetchNewsDetails(newsId));
-                // Wait for all promises to resolve using Promise.all
-                return Promise.all(promises);
+                // Wait for all promises to resolve using axios.all
+                return axios.all(promises);
             })
             .then(newsResponses => {
                 // Process each news detail response
